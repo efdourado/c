@@ -7,11 +7,11 @@
 
 ---
 
-### 1. opGrandes
+## 1. opGrandes
 
 Soma, subtração e multiplicação de números que excedem os limites padrão de tipos como `int` ou `long long`, tratando-os como strings.
 
-#### Run
+### Run
 
 1. **Compilação e Execução:**
 
@@ -40,11 +40,9 @@ gcc -o opGrandes opGrandes.c
 
 ---
 
-### 2. paralegrep
+## 2. paralegrep
 
 Uma implementação multi-thread em C de um buscador de termos em paralelo. Ele monitora um diretório (`fileset`) e ranqueia os arquivos pela ocorrência de um termo.
-
-#### Arquitetura
 
 O programa opera com três tipos de threads:
 
@@ -52,7 +50,7 @@ O programa opera com três tipos de threads:
 * **Operárias:** Recebem um caminho de arquivo, contam as ocorrências do termo buscado e enviam o resultado para a thread de ranking.
 * **Ranking:** Consolida os resultados e exibe, a cada 5 segundos, o top 10 de arquivos com mais ocorrências.
 
-#### Run
+### Run
 
 1.  **Ambiente:**
     - Adicione arquivos `.txt` ao diretório `fileset` para que o programa possa processá-los.
