@@ -31,12 +31,12 @@ gcc -o opGrandes opGrandes.c
 `<operação (1:soma, 2:subtração, 3:multiplicação)>`
 
 **Exemplo:**
-    ```
-        1
-        33324211987654321
-        121521913456789
-        2
-    ```
+```bash
+1
+33324211987654321
+121521913456789
+2
+```
 
 ---
 
