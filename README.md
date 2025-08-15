@@ -13,7 +13,7 @@ Soma, subtração e multiplicação de números que excedem os limites padrão d
 
 ### Run
 
-1. **Compilação e Execução:**
+a. **Compilação e Execução:**
 
 ```bash
 cd opGrandes
@@ -22,15 +22,17 @@ gcc -o opGrandes opGrandes.c
 ./opGrandes
 ```
 
-2. **Entrada:**
+b. **Entrada:**
 
+```bash
 `<número de casos de teste>`
 
 `<número 1>`
 `<número 2>`
 `<operação (1:soma, 2:subtração, 3:multiplicação)>`
+```
 
-**Exemplo:**
+c. **Exemplo:**
 ```bash
 1
 33324211987654321
@@ -52,10 +54,10 @@ O programa opera com três tipos de threads:
 
 ### Run
 
-1.  **Ambiente:**
+a.  **Ambiente:**
     - Adicione arquivos `.txt` ao diretório `fileset` para que o programa possa processá-los.
 
-2.  **Compilação:**
+b.  **Compilação:**
 
 ```bash
 cd paralegrep
@@ -63,7 +65,7 @@ cd paralegrep
 gcc -pthread -o paralegrep paralegrep.c
 ```
 
-3.  **Execução:**
+c.  **Execução:**
 
 ```bash
 ./paralegrep sistemas
