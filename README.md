@@ -1,17 +1,17 @@
 # C Stash
 
-1. [opGrandes](#1-opgrandes): Operações aritméticas com números grandes
-2. [paralegrep](#2-paralegrep): Busca de termos em arquivos com paralelismo
+1. [opGrandes](#1-opgrandes): Arithmetic operations with large numbers
+2. [paralegrep](#2-paralegrep): Parallelized search for terms in files
 
 ---
 
-## 1. opGrandes
+## 1. Large Number Operations
 
-Soma, subtração e multiplicação de números que excedem os limites padrão de tipos como `int` ou `long long`, tratando-os como strings.
+Performs addition, subtraction, and multiplication on numbers that exceed the standard limits of types like `int` or `long long`, treating them as strings.
 
 ### Run
 
-a. **Compilação e Execução:**
+a. **Compile and Execute:**
 
 ```bash
 cd opGrandes
@@ -20,37 +20,37 @@ gcc -o opGrandes opGrandes.c
 ./opGrandes
 ```
 
-b. **Entrada:**
+b. **Input:**
 
 ```bash
-<número de casos de teste>
+<number of test cases>
 
-<número 1>
-<número 2>
-<operação (1: soma, 2: subtração, ou 3: multiplicação)>
+<number 1>
+<number 2>
+<operation (1: addition, 2: subtraction, 3: multiplication)>
 ```
 
 ---
 
-## 2. paralegrep
+## 2. Parallel Term Search
 
-Uma implementação multi-thread em C de um buscador de termos em paralelo. Ele monitora um diretório (`fileset`) e ranqueia os arquivos pela ocorrência de um termo
+A multi-threaded implementation in C that monitors a directory (`fileset`) and ranks files based on the number of times a search term appears.
 
-O programa opera com três tipos de threads:
+The program works with three types of threads:
 
-* **Despachante:** Monitora o diretório `fileset` a cada 5 segundos, identificando arquivos novos ou modificados para enviá-los às threads operárias
-* **Operárias:** Recebem um caminho de arquivo, contam as ocorrências do termo buscado e enviam o resultado para a thread de ranking
-* **Ranking:** Consolida os resultados e exibe, a cada 5 segundos, o top 10 de arquivos com mais ocorrências
+* **Dispatcher:** Monitors the `fileset` directory every 5 seconds, identifying new or modified files and sending them to worker threads.
+* **Workers:** Receive a file path, count the occurrences of the search term, and send the results to the ranking thread.
+* **Ranking:** Consolidates the results and displays the top 10 files with the highest occurrence count every 5 seconds.
 
 ### Run
 
-a.  **Ambiente:** Adicione arquivos `.txt` ao diretório `fileset` para que o programa possa processá-los
+a. **Environment:** Add `.txt` files to the `fileset` directory so the program can process them.
 
-b.  **Compilação e Execução:**
+b. **Compile and Execute:**
 
 ```bash
 cd paralegrep
 gcc -pthread -o paralegrep paralegrep.c
 
-./paralegrep <termo>
+./paralegrep <term>
 ```
