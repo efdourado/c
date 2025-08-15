@@ -4,7 +4,7 @@ A terminal version to get all the numbered tiles (1–15) in order by sliding th
 
 ## Controls
 
-* **esc** - quit the game
+* **esc** - Quit the game
 
 ## to Play
 
