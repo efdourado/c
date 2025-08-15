@@ -34,17 +34,17 @@ b. **Entrada:**
 
 ## 2. paralegrep
 
-Uma implementação multi-thread em C de um buscador de termos em paralelo. Ele monitora um diretório (`fileset`) e ranqueia os arquivos pela ocorrência de um termo.
+Uma implementação multi-thread em C de um buscador de termos em paralelo. Ele monitora um diretório (`fileset`) e ranqueia os arquivos pela ocorrência de um termo
 
 O programa opera com três tipos de threads:
 
-* **Despachante:** Monitora o diretório `fileset` a cada 5 segundos, identificando arquivos novos ou modificados para enviá-los às threads operárias.
-* **Operárias:** Recebem um caminho de arquivo, contam as ocorrências do termo buscado e enviam o resultado para a thread de ranking.
-* **Ranking:** Consolida os resultados e exibe, a cada 5 segundos, o top 10 de arquivos com mais ocorrências.
+* **Despachante:** Monitora o diretório `fileset` a cada 5 segundos, identificando arquivos novos ou modificados para enviá-los às threads operárias
+* **Operárias:** Recebem um caminho de arquivo, contam as ocorrências do termo buscado e enviam o resultado para a thread de ranking
+* **Ranking:** Consolida os resultados e exibe, a cada 5 segundos, o top 10 de arquivos com mais ocorrências
 
 ### Run
 
-a.  Adicione arquivos `.txt` ao diretório `fileset` para que o programa possa processá-los
+a.  **Ambiente:** Adicione arquivos `.txt` ao diretório `fileset` para que o programa possa processá-los
 
 b.  **Compilação e Execução:**
 
@@ -52,5 +52,5 @@ b.  **Compilação e Execução:**
 cd paralegrep
 gcc -pthread -o paralegrep paralegrep.c
 
-./paralegrep sistemas
+./paralegrep <termo>
 ```
