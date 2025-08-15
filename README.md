@@ -29,7 +29,7 @@ b. **Entrada:**
 
 <número 1>
 <número 2>
-<operação (1:soma, 2:subtração, 3:multiplicação)>
+<operação (1: soma, 2: subtração, ou 3: multiplicação)>
 ```
 
 ---
