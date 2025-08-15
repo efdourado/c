@@ -1,6 +1,6 @@
 # Large Number Operations
 
-A C program for **addition**, **subtraction**, and **multiplication** of numbers that exceed the limits of standard data types (`int`, `long long`, etc.) by processing them as strings
+A C program for **addition (1)**, **subtraction (2)**, and **multiplication (3)** of numbers that exceed the limits of standard data types (`int`, `long long`, etc.) by processing them as strings
 
 ## Run
 
@@ -19,5 +19,5 @@ gcc -o large-number-arithmetic large-number-arithmetic.c
 
 <number 1>
 <number 2>
-<operation>    # 1: addition, 2: subtraction, 3: multiplication
+<operation>
 ```
