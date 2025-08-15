@@ -44,8 +44,7 @@ O programa opera com três tipos de threads:
 
 ### Run
 
-a.  **Ambiente:**
-    - Adicione arquivos `.txt` ao diretório `fileset` para que o programa possa processá-los.
+a.  Adicione arquivos `.txt` ao diretório `fileset` para que o programa possa processá-los
 
 b.  **Compilação e Execução:**
 
