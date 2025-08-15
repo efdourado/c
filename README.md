@@ -1,9 +1,7 @@
 # C Stash
 
-**Projects**
-
-1. [opGrandes](#1-opgrandes): Operações aritméticas com números grandes.
-2. [paralegrep](#2-paralegrep): Busca de termos em arquivos com paralelismo.
+1. [opGrandes](#1-opgrandes): Operações aritméticas com números grandes
+2. [paralegrep](#2-paralegrep): Busca de termos em arquivos com paralelismo
 
 ---
 
@@ -49,16 +47,11 @@ O programa opera com três tipos de threads:
 a.  **Ambiente:**
     - Adicione arquivos `.txt` ao diretório `fileset` para que o programa possa processá-los.
 
-b.  **Compilação:**
+b.  **Compilação e Execução:**
 
 ```bash
 cd paralegrep
-
 gcc -pthread -o paralegrep paralegrep.c
-```
 
-c.  **Execução:**
-
-```bash
 ./paralegrep sistemas
 ```
