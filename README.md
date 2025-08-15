@@ -25,19 +25,11 @@ gcc -o opGrandes opGrandes.c
 b. **Entrada:**
 
 ```bash
-`<número de casos de teste>`
+<número de casos de teste>
 
-`<número 1>`
-`<número 2>`
-`<operação (1:soma, 2:subtração, 3:multiplicação)>`
-```
-
-c. **Exemplo:**
-```bash
-1
-33324211987654321
-121521913456789
-2
+<número 1>
+<número 2>
+<operação (1:soma, 2:subtração, 3:multiplicação)>
 ```
 
 ---
