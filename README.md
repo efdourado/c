@@ -68,7 +68,3 @@ gcc -pthread -o paralegrep paralegrep.c
 ```bash
 ./paralegrep sistemas
 ```
-
-## Pré-requisitos
-
-- `gcc` && `pthreads`
