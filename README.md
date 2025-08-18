@@ -1,6 +1,6 @@
 # C Stash
 
-A collection of C files designed to demonstrate different problem-solving approaches in pure C. It serves as a practical reference for studying data handling, concurrency, and system programming, while also exploring interactive applications
+This a collection of C files designed to demonstrate different problem-solving approaches in pure C. It serves as a practical reference for studying data handling, concurrency, and system programming, while also exploring interactive applications
 
 ## Index
 
