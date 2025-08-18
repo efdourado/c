@@ -7,6 +7,7 @@ Collection of small C programs and experiments
 1. [Large Number Arithmetic](#1-large-number-operations)
 2. [Parallel Term Search](#2-parallel-term-search)
 3. [Games](#3-games)
+   
    3.1 [15 Puzzle](#31-15-puzzle)
 
 ---
