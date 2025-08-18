@@ -40,7 +40,7 @@ gcc -o large-number-arithmetic large-number-arithmetic.c
 
 multi-threaded program that scans `.txt` files in a `fileset` directory and ranks them by frequency of a given search term
 
-**run:**
+**Run:**
 
 ```bash
 cd parallel-term-search
