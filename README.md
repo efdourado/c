@@ -1,6 +1,6 @@
 # C Stash
 
-This a collection of C files designed to demonstrate different problem-solving approaches in pure C. It serves as a practical reference for studying data handling, concurrency, and system programming, while also exploring interactive applications
+this a collection of C files designed to demonstrate different problem-solving approaches in pure C. It serves as a practical reference for studying data handling, concurrency, and system programming, while also exploring interactive applications
 
 ## Index
 
@@ -14,7 +14,7 @@ This a collection of C files designed to demonstrate different problem-solving a
 
 # 1. Large Number Arithmetic
 
-Arithmetic with numbers beyond standard data type limits by processing them as strings. Supports **Addition (1)**, **Subtraction (2)**, and **Multiplication (3)**
+arithmetic with numbers beyond standard data type limits by processing them as strings. Supports **Addition (1)**, **Subtraction (2)**, and **Multiplication (3)**
 
 **Run:**
 
@@ -38,7 +38,7 @@ gcc -o large-number-arithmetic large-number-arithmetic.c
 
 # 2. Parallel Term Search
 
-Multi-threaded program that scans `.txt` files in a `fileset` directory and ranks them by frequency of a given search term
+multi-threaded program that scans `.txt` files in a `fileset` directory and ranks them by frequency of a given search term
 
 **Run:**
 
@@ -54,7 +54,7 @@ gcc -pthread -o parallel-term-search parallel-term-search.c
 
 ## 3.1 15 Puzzle
 
-Terminal version of the sliding puzzle where you arrange tiles 1–15 in order
+terminal version of the sliding puzzle where you arrange tiles 1–15 in order
 
 **Run:**
 
